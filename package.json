@@ -1,0 +1,22 @@
+{
+  "name": "test-for-astro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github-personal:bat-in-metropolis/test-astro.git",
+  "author": "Manas <rmnsdeo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.17.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

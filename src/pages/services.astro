@@ -1,0 +1,12 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { Services } from '../components/Services';
+---
+
+<MainLayout 
+  title="Our Services" 
+  description="Comprehensive solutions for your digital needs"
+  currentPath="/services"
+>
+  <Services client:load />
+</MainLayout>
